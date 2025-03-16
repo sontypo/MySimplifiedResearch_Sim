@@ -25,7 +25,7 @@ This repository contains a Python-based simulation of a mobile robot navigating 
 The simulation consists of three main components:
 
 1. **Environment**: A hallway with walls and humans moving along predefined trajectories.
-2. **Robot Physics**: A dynamic model of the robot that calculates forces and updates its position and velocity.
+2. **Robot Dynamics**: A dynamic model of the robot that calculates forces and updates its position and velocity.
 3. **Visualization**: Real-time visualization of the robot, humans, and forces using Matplotlib.
 
 The robot navigates towards a goal while avoiding collisions with humans and walls. The simulation stops when the robot reaches the goal.
