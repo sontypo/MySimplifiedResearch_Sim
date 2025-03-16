@@ -125,37 +125,12 @@ The robot's motion is governed by the following forces:
 
 1. **Desired Force (`F_des`)**:
    - Drives the robot towards its goal.
-   - Calculated as:
-     \[
-     F_{\text{des}} = m \cdot \frac{v_{\text{des}} - v_{\text{cur}}}{\tau_d}
-     \]
-     where:
-     - \( m \) is the robot's mass.
-     - \( v_{\text{des}} \) is the desired velocity.
-     - \( v_{\text{cur}} \) is the current velocity.
-     - \( \tau_d \) is the time constant.
 
 2. **Social Force (`F_soc`)**:
    - Repels the robot from humans within its FOV.
-   - Calculated as:
-     \[
-     F_{\text{soc}} = \Gamma \cdot \alpha \cdot e^{-d / \beta} \cdot \frac{\vec{d}}{d}
-     \]
-     where:
-     - \( \Gamma \) is the anisotropic behavior factor.
-     - \( \alpha \) and \( \beta \) are force parameters.
-     - \( d \) is the distance to the human.
-     - \( \vec{d} \) is the vector from the robot to the human.
 
 3. **Boundary Force (`F_bound`)**:
    - Repels the robot from the walls.
-   - Calculated as:
-     \[
-     F_{\text{bound}} = \alpha_{\text{bound}} \cdot e^{-d_{\text{wall}} / \beta_{\text{bound}}}
-     \]
-     where:
-     - \( \alpha_{\text{bound}} \) and \( \beta_{\text{bound}} \) are force parameters.
-     - \( d_{\text{wall}} \) is the distance to the wall.
 
 4. **Total Force (`F_total`)**:
    - The sum of `F_des`, `F_soc`, and `F_bound`.
