@@ -216,7 +216,7 @@ The `robot_dynamics.py` script contains the following key functions:
 The simulation visualization consists of two sections:
 
 1. **Left Side**:
-   - The robot (blue circle) and humans (red circles) in the hallway.
+   - The robot (orange circle) and humans (blue circles) in the hallway.
    - A green arrow represents the total force acting on the robot.
 
 2. **Right Side**:
