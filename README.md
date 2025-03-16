@@ -1,6 +1,6 @@
 ---
 
-# Robot Simulation in a Hallway Environment
+# Application of Social Force Model in Socially Interactive Robotics
 
 This repository contains a Python-based simulation of a mobile robot navigating a hallway environment while avoiding humans and walls. The robot uses a **social force model** to calculate forces such as desired force (`F_des`), social force (`F_soc`), boundary force (`F_bound`), and total force (`F_total`). The simulation is visualized in real-time using Matplotlib.
 
@@ -70,7 +70,7 @@ pip install numpy matplotlib
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/robot-simulation.git
+   git clone [https://github.com/your-username/robot-simulation.git](https://github.com/sontypo/MySimplifiedResearch_Sim.git)
    cd robot-simulation
    ```
 
@@ -105,7 +105,7 @@ The repository has the following structure:
 ```
 robot-simulation/
 ├── environment.py       # Defines the hallway environment and visualization
-├── robot_physics.py     # Implements the robot's dynamics and force calculations
+├── robot_dynamics.py     # Implements the robot's dynamics and force calculations
 ├── main.py              # Runs the simulation
 ├── README.md            # Project documentation
 └── requirements.txt     # List of dependencies
@@ -164,7 +164,7 @@ The robot's motion is governed by the following forces:
 
 ### Functions in `robot_physics.py`
 
-The `robot_physics.py` script contains the following key functions:
+The `robot_dynamics.py` script contains the following key functions:
 
 #### 1. `__init__(self, ...)`
 - **Purpose**: Initializes the robot's state and parameters.
