@@ -71,7 +71,7 @@ pip install numpy matplotlib
 
    ```bash
    git clone [https://github.com/your-username/robot-simulation.git](https://github.com/sontypo/MySimplifiedResearch_Sim.git)
-   cd robot-simulation
+   cd MySimplifiedResearch_Sim/
    ```
 
 2. Install the dependencies:
