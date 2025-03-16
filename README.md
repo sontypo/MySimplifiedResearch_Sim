@@ -105,7 +105,7 @@ The repository has the following structure:
 ```
 robot-simulation/
 ├── environment.py       # Defines the hallway environment and visualization
-├── robot_dynamics.py     # Implements the robot's dynamics and force calculations
+├── robot_dynamics.py    # Implements the robot's dynamics and force calculations
 ├── main.py              # Runs the simulation
 ├── README.md            # Project documentation
 └── requirements.txt     # List of dependencies
