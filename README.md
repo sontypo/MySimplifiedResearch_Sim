@@ -103,7 +103,7 @@ python main.py
 The repository has the following structure:
 
 ```
-robot-simulation/
+MySimplifiedResearch_Sim/
 ├── environment.py       # Defines the hallway environment and visualization
 ├── robot_dynamics.py    # Implements the robot's dynamics and force calculations
 ├── main.py              # Runs the simulation
