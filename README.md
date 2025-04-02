@@ -1,6 +1,6 @@
 ---
 
-# Application of Social Force Model in Socially Interactive Robotics
+# Application of Social Force Model in Socially Interactive Robotics (Simplified version)
 
 This repository contains a Python-based simulation of a mobile robot navigating a hallway environment while avoiding humans and walls. The robot uses a **social force model** to calculate forces such as desired force (`F_des`), social force (`F_soc`), boundary force (`F_bound`), and total force (`F_total`). The simulation is visualized in real-time using Matplotlib.
 
